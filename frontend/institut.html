@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institut</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Institutlar</h1>
+    {% for post in posts %}
+    <h2>{{post.fakulteti}}</h2>
+    <p><img src="{{post.rasm}}" alt="institut" width="500px" height="300px"></p>
+    <p>{{post.yonalishlarisoni}}</p>
+    <p>{{post.malumot}}</p>
+    {% endfor%}
+    
+</body>
+</html>
