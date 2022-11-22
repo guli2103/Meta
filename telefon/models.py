@@ -6,7 +6,7 @@ class Infinix(models.Model):
     narxi = models.IntegerField(default=1)
 
     def __str__(self):
-        return self.kompaniyasi
+        return self.turi
 
 class Samsung(models.Model):
     turi = models.CharField(max_length=30)
@@ -14,7 +14,7 @@ class Samsung(models.Model):
     narxi = models.IntegerField(default=1)
 
     def __str__(self):
-        return self.kompaniyasi
+        return self.turi
 
 class Apple(models.Model):
     turi = models.CharField(max_length=30)
@@ -22,7 +22,7 @@ class Apple(models.Model):
     narxi = models.IntegerField(default=1)
 
     def __str__(self):
-        return self.kompaniyasi
+        return self.turi
 
 class Redme(models.Model):
     turi = models.CharField(max_length=30)
@@ -30,7 +30,7 @@ class Redme(models.Model):
     narxi = models.IntegerField(default=1)
 
     def __str__(self):
-        return self.kompaniyasi
+        return self.turi
 
 class Vivo(models.Model):
     turi = models.CharField(max_length=30)
@@ -38,7 +38,7 @@ class Vivo(models.Model):
     narxi = models.IntegerField(default=1)
 
     def __str__(self):
-        return self.kompaniyasi
+        return self.turi
 
 
 

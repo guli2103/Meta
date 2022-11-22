@@ -3,9 +3,9 @@ from .views import *
 
 
 urlpatterns = [
-    path('moshin/', bmw),
-    path('moshin/', kia),
-    path('moshin/', ferreri),
-    path('moshin/', chevrolet),
-    path('moshin/', honda),
+    path('bmw/', bmw),
+    path('kia/', kia),
+    path('ferrari/', ferreri),
+    path('chevrolet/', chevrolet),
+    path('honda/', honda),
 ]

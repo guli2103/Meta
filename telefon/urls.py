@@ -3,9 +3,9 @@ from .views import *
 
 
 urlpatterns = [
-    path('telefon/', infinix),
-    path('telefon/', samsung),
-    path('telefon/', apple),
-    path('telefon/', redme),
-    path('telefon/', vivo),
+    path('infinix/', infinix),
+    path('samsung/', samsung),
+    path('apple/', apple),
+    path('redme/', redme),
+    path('vivo/', vivo),
 ]

@@ -13,9 +13,9 @@
 </head>
 <body>
     <h1>Telefonlar</h1>
-    {% for post un posts %}
+    {% for post in posts %}
     <h2>{{post.turi}}</h2>
-    <p><img src="{{post.rasmi}}" alt="telefon" width="500px" height="300px"></p>
+    <p><img src="{{post.rasmi}}" alt="telefon" width="500px" height="600px"></p>
     <p>{{post.narxi}}</p>
     {% endfor %}
 </body>

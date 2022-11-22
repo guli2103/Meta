@@ -3,9 +3,9 @@ from .views import *
 
 
 urlpatterns = [
-    path('institut/', navoiy),
-    path('institut/', buxoro),
-    path('institut/', navoiy1),
-    path('institut/', toshkent),
-    path('institut/', toshkent1),
+    path('navoiy/', navoiy),
+    path('buxoro/', buxoro),
+    path('navoiy1/', navoiy1),
+    path('toshkent/', toshkent),
+    path('toshkent1/', toshkent1),
 ]
